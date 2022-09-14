@@ -1,0 +1,47 @@
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.userImg {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-right: 10px;
+}
+
+.descName {
+    font-weight: bold;
+}
+
+.descWrapper {
+    position: relative;
+    width: 300px;
+    padding:5px 10px 0 10px;
+    border-radius: 10px 10px 10px 0;
+    background: #4d5156;
+    color: #bbfbbc;
+}
+
+.descWrapper::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left, transparent 49%, #4d5156 51%) no-repeat right bottom;
+}
+
+.desc {
+    display: flex;
+    align-content: center;
+    color: white;
+}
+
+.descMessage {
+    margin-right: 15px;
+}
