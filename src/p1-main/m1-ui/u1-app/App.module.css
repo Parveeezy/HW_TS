@@ -1,3 +1,13 @@
 .App {
+max-width: 1400px;
+    margin: 0 auto;
+}
 
+body {
+    background-color: #303d59;
+    color: white;
+}
+
+.wrapper {
+    margin-bottom: 10px;
 }
